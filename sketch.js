@@ -23,9 +23,9 @@ function setup() {
   dustbin3 = new dustbins(1100, 680, 150, 20);
   dustbin2 = new dustbins(1185, 615, 20, 150);
   
-  paper1 = new paper(150, 300, 40);
+  paper1 = new paper(659, 300, 40);
   
-  slingshot = new Launcher(paper1.body,{x:150, y:300});
+  slingshot = new Launcher(paper1.body,{x:675, y:300});
 
   
   Engine.run(engine);
